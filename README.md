@@ -6,20 +6,20 @@ Data Analyst AI Assistant is an AI-powered chatbot designed to help users learn 
 
 ---
 
-## 🚀 Features
+## Features
 
-- 🤖 AI-powered chatbot using **Gemini 2.5 Flash**
-- 📊 Specialized in Data Analytics topics
-- 💬 Interactive chat interface built with Streamlit
-- 🌐 Supports Indonesian and English responses
-- 🎓 Beginner, Intermediate, and Advanced learning levels
-- 📚 Step-by-step explanations with practical examples
-- 🔄 Conversation history and reset functionality
-- 🎨 Clean and responsive user interface
+-  AI-powered chatbot using **Gemini 2.5 Flash**
+-  Specialized in Data Analytics topics
+-  Interactive chat interface built with Streamlit
+-  Supports Indonesian and English responses
+-  Beginner, Intermediate, and Advanced learning levels
+-  Step-by-step explanations with practical examples
+-  Conversation history and reset functionality
+-  Clean and responsive user interface
 
 ---
 
-## 📚 Supported Topics
+## Supported Topics
 
 - SQL & Database
 - Python (Pandas & NumPy)
@@ -32,7 +32,7 @@ Data Analyst AI Assistant is an AI-powered chatbot designed to help users learn 
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - Python
 - Streamlit
@@ -42,7 +42,7 @@ Data Analyst AI Assistant is an AI-powered chatbot designed to help users learn 
 - Ngrok
 - GitHub
 ---
-## 💡 Example Questions
+## Example Questions
 
 - What is the difference between INNER JOIN and LEFT JOIN?
 - How do I use VLOOKUP in Excel?
@@ -53,7 +53,7 @@ Data Analyst AI Assistant is an AI-powered chatbot designed to help users learn 
 
 ---
 
-## 🎯 Project Objective
+## Project Objective
 
 This project was developed as the **Final Project** for the **LLM-Based Tools and Gemini API Integration for Data Scientists** course organized by **Hactiv8**.
 
@@ -61,7 +61,7 @@ The objective of this project is to demonstrate how a Large Language Model (LLM)
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 **Muhammad Faturrahman**
 
