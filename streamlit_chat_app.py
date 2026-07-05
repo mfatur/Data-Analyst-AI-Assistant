@@ -52,7 +52,7 @@ if not google_api_key:
 with st.sidebar:
     st.image("https://img.icons8.com/fluency/96/data-configuration.png", width=80)
     st.title("📊 Data Analyst\nAI Assistant")
-    st.caption("Powered by Google Gemini")
+    st.caption("AI Model : Gemini 2.5 Flash")
     st.divider()
     st.markdown("**🧠 Topik yang bisa ditanyakan:**")
     st.markdown("""
@@ -132,11 +132,20 @@ if prompt:
 
     st.session_state.messages.append({"role": "assistant", "content": answer})
     # ── Footer ────────────────────────────────────────────────────────────────────
-st.divider()
-st.markdown(
-    "<div style='text-align: center; color: gray; font-size: 13px;'>"
-    "© 2025 <b>Muhammad Faturrahman</b> · Data Analyst AI Assistant · "
-    "Powered by Google Gemini"
-    "</div>",
-    unsafe_allow_html=True
-)
+st.markdown("""
+    <style>
+    .copyright {
+        position: fixed;
+        bottom: 5px;
+        left: 55%;
+        transform: translateX(-50%);
+        color: gray;
+        font-size: 12px;
+        z-index: 9999;
+        white-space: nowrap;
+    }
+    </style>
+    <div class='copyright'>
+        © 2025 <b>Muhammad Faturrahman</b> · Data Analyst AI Assistant ·  Gemini 2.5 Flash
+    </div>
+""", unsafe_allow_html=True)
