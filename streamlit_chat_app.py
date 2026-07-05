@@ -7,6 +7,20 @@ st.set_page_config(
     page_icon="📊",
     layout="wide"
 )
+st.markdown("""
+    <style>
+    @media (max-width: 768px) {
+        .main .block-container {
+            padding-top: 0.5rem;
+            padding-bottom: 0rem;
+            padding-left: 0.5rem;
+            padding-right: 0.5rem;
+        }
+        footer {visibility: hidden;}
+        header {visibility: hidden;}
+    }
+    </style>
+""", unsafe_allow_html=True)
 
 SYSTEM_PROMPT = """Kamu adalah Senior Data Analyst AI Assistant yang berpengalaman lebih dari 10 tahun.
 
