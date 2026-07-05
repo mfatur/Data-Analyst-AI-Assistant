@@ -1,6 +1,6 @@
 # 📊 Data Analyst AI Assistant
 
-> **Final Project** for the **LLM-Based Tools and Gemini API Integration for Data Scientists** course by **Hactiv8**.
+> **Final Project** for the **LLM-Based Tools and Gemini API Integration for Data Scientists** by **Hactiv8**.
 
 Data Analyst AI Assistant is an AI-powered chatbot designed to help users learn and understand Data Analytics concepts through interactive conversations. The application leverages Google's **Gemini 2.5 Flash** model to provide explanations, examples, and guidance on SQL, Python, Excel, Statistics, Data Visualization, Tableau, and Power BI.
 
